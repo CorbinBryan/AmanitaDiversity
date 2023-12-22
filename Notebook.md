@@ -60,5 +60,4 @@ makeblastdb -dbtype nucl -in no_dup.fa -parse_seqids -title "Amanita rDNA" -out 
 We'll blast the full published seq set against this database. 
 ```bash
 blastn -query pubd_seq.fa -db /Users/corbinbryan/Desktop/AmanitaDiversity/Amanita_no_dup -outfmt 6 -out full_v_nodup.tsv -max_target_seqs 1
-`
-d
+```
